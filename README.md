@@ -49,3 +49,8 @@ Supports tooltips with phrasing like:
 |zhCN|🔷|Update as bugs are reported by users|
 |zhTW|🔷|No plans to support unless assisted|
 |koKR|❌|No plans to support unless assisted|
+
+
+## Formatting with prettier
+
+`npx prettier --config .prettierrc js_src/**/*.js --write`

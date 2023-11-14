@@ -1,2 +1,4 @@
 output
 releases
+/node_modules
+.vs/

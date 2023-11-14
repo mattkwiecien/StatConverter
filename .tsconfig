@@ -1,0 +1,16 @@
+json { 
+	"$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json", 
+	"compilerOptions": { 
+		"target": "ESNext", 
+		"lib": ["ESNext"], 
+		"moduleResolution": "Node", 
+		"types": ["@typescript-to-lua/language-extensions", "lua-types/5.1"], 
+		"strict": true 
+	}, 
+	"tstl": { "luaTarget": "5.1" } 
+}
+
+
+git clone --depth=1 https://github.com/tomrus88/BlizzardInterfaceCode.git
+git clone --depth=1 https://github.com/LuaDist/dkjson
+
