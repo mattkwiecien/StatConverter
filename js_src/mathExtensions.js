@@ -5,5 +5,4 @@ LB.BlizzRound = function (x) {
 	return floor(x + 0.34);
 };
 
-
 module.exports = LB;
