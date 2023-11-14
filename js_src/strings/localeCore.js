@@ -17,3 +17,5 @@ LB.GetLocaleTable = function (locale) {
 	}
 	return foundLocale.getLocaleTable();
 };
+
+module.exports = LB;

@@ -18,8 +18,7 @@ const _ratingBase = {
 };
 const _level34Ratings = { CR_DEFENSE_SKILL: true, CR_DODGE: true, CR_PARRY: true, CR_BLOCK: true };
 LB.GetEffectFromRating = function (rating, id, level = -1) {
-	
-	if (typeof UnitLevel == undefined) level = UnitLevel('player'); 
+	if (typeof UnitLevel == undefined) level = UnitLevel('player');
 
 	if (level < 34 && _level34Ratings[id]) level = 34;
 
@@ -32,4 +31,4 @@ LB.GetEffectFromRating = function (rating, id, level = -1) {
 	}
 };
 
-module.exports = LB;
+export { LB };

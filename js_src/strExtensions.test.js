@@ -1,4 +1,4 @@
-const strExt = require('./strExtensions');
+import { strExt } from './strExtensions';
 
 describe('the string abc', () => {
 	test('starts with a', () => {

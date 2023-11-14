@@ -6,17 +6,7 @@ const LoadConfig = LB.Attributes.Core.LoadConfig;
 const GetStatMod = LB.Attributes.Core.GetStatMod;
 const floor = Math.floor;
 const BlizzRound = LB.BlizzRound;
-const _apPerStr = {
-	WARRIOR: 2,
-	PALADIN: 2,
-	HUNTER: 1,
-	ROGUE: 1,
-	PRIEST: 1,
-	SHAMAN: 2,
-	MAGE: 1,
-	WARLOCK: 1,
-	DRUID: 2
-};
+const _apPerStr = { WARRIOR: 2, PALADIN: 2, HUNTER: 1, ROGUE: 1, PRIEST: 1, SHAMAN: 2, MAGE: 1, WARLOCK: 1, DRUID: 2 };
 const _bvPerStr = {
 	WARRIOR: 0.05,
 	PALADIN: 0.05,

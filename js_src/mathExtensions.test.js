@@ -1,4 +1,4 @@
-const mathExt = require('./mathExtensions');
+import { mathExt } from './mathExtensions';
 
 describe('BlizzRound', () => {
 	test('rounds down', () => {

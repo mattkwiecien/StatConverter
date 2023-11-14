@@ -1,4 +1,4 @@
-const ratingConversion = require('./ratingConversion');
+import { ratingConversion } from './ratingConversion';
 
 describe('GetEffectFromRating', () => {
 	describe('for level < 10', () => {
